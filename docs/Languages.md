@@ -183,6 +183,7 @@
 - Smalltalk (`smalltalk`)
 - Smarty (`smarty`)
 - SML (`sml`)
+- Solidity (`solidity`)
 - SPARQL (`sparql`)
 - SQF (`sqf`)
 - SQL (`sql`)
