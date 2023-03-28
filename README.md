@@ -1,3 +1,18 @@
+# Rouge with Solidity support
+
+If you've wasted your valuable time trying to figure out why your solidity code is not getting highlighted, this is because support for solidity was removed by the author of the gem [without much of a meaningful discussions](https://github.com/rouge-ruby/rouge/issues/1869) in a [single commit](https://github.com/rouge-ruby/rouge/commit/045d7bc) (`remove support for languages related to pyramid schemes`).
+
+If you want to highlight your Solidity code in Jekyll using rouge, add the following to your Gemfile, and it should start working again:
+
+```ruby
+gem 'rouge', github: 'yurikoval/rouge-with-solidity'
+```
+
+MINSWAN, and happy coding!
+
+
+---
+
 # Rouge
 
 ![Build Status](https://github.com/rouge-ruby/rouge/actions/workflows/ruby.yml/badge.svg)
